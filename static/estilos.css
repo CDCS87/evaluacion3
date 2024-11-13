@@ -1,0 +1,128 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: left;
+}
+
+/* Estilos para el título del formulario */
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Campos de entrada de texto */
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* Estilos para el botón de envío */
+button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Contenedor de los botones en la página de inicio */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Estilos para los botones en la página de inicio */
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff; /* Azul brillante */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px; /* Bordes redondeados */
+    width: 200px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Un tono más oscuro al hacer hover */
+}
+
+/* Estilos para el bloque de resultados */
+.resultado {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.resultado p {
+    margin: 5px 0;
+}
+
+//* Estilos para el botón de envío */
+.submit-button {
+    padding: 10px 30px; /* Ajusta el tamaño */
+    font-size: 16px;
+    color: white;
+    background-color: #00bfff; /* Color celeste */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto; /* Deja el ancho según el contenido */
+    margin-top: 10px;
+    display: block; /* Asegura que se mantenga alineado */
+    text-align: center; /* Centra el texto */
+}
+
+.submit-button:hover {
+    background-color: #009acd; /* Cambia a un tono más oscuro al hacer hover */
+}
+
