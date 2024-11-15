@@ -19,7 +19,7 @@ def ejercicio1():
         asistencia = int(request.form.get('asistencia', 0))
 
         # Acciones con los datos ingresados
-        promedio = (nota1 + nota2 + nota3) / 3
+        promedio = round((nota1 + nota2 + nota3) / 3, 1)
         estado = 'APROBADO' if promedio >= 40 and asistencia >= 75 else 'REPROBADO'
 
     return render_template('ejercicio1.html', promedio=promedio, estado=estado)

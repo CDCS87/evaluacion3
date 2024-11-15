@@ -18,11 +18,11 @@
             <label for="nombre3">Nombre 3:</label>
             <input type="text" id="nombre3" name="nombre3" required>
 
-            <button type="submit">Enviar</button>
+            <button class="button2" type="submit">Enviar</button>
         </form>
 
         {% if nombre_mayor and caracteres %}
-            <div class="resultado">
+            <div class="resultado2">
                 <p>El nombre con mayor cantidad de caracteres es: {{ nombre_mayor }}</p>
                 <p>El nombre tiene: {{ caracteres }} caracteres</p>
             </div>
